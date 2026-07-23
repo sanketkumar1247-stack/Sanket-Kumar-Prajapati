@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "kind": "html",
+  "title": "media.html",
+  "entry": "media.html",
+  "renderer": "html",
+  "status": "complete",
+  "exports": [
+    "html",
+    "pdf",
+    "zip"
+  ],
+  "createdAt": "2026-07-15T14:56:26.295Z",
+  "updatedAt": "2026-07-15T14:56:26.295Z",
+  "metadata": {
+    "inferred": true,
+    "reconciled": true
+  }
+}

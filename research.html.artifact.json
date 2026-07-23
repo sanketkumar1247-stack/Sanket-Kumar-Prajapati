@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "kind": "html",
+  "title": "research.html",
+  "entry": "research.html",
+  "renderer": "html",
+  "status": "complete",
+  "exports": [
+    "html",
+    "pdf",
+    "zip"
+  ],
+  "createdAt": "2026-07-15T14:49:05.245Z",
+  "updatedAt": "2026-07-15T14:49:05.245Z",
+  "metadata": {
+    "inferred": true,
+    "reconciled": true
+  }
+}

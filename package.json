@@ -1,0 +1,19 @@
+{
+  "name": "sanket-prajapati-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio of Sanket Kumar Prajapati - PhD Scholar, European Studies",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'No build step required'",
+    "lint": "echo 'No lint step required'"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
