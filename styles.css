@@ -1873,37 +1873,36 @@ a.stack-item:focus .stack-link-arrow {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.85rem;
+  gap: 0.75rem;
   margin-top: 1.5rem;
 }
 
 .social-logo-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
-  min-height: 40px;
-  padding: 0.4rem 1.1rem;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
   border: 1px solid var(--border);
-  border-radius: var(--radius-pill);
-  background: rgba(255, 255, 255, 0.04);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
   color: #ffffff;
-  font-size: 0.85rem;
-  font-weight: 600;
-  transition: all 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
 }
 
 .social-logo-btn svg {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   fill: currentColor;
 }
 
 .social-logo-btn:hover {
-  background: rgba(0, 240, 255, 0.1);
+  background: rgba(0, 240, 255, 0.15);
   border-color: var(--cyan-accent);
   color: var(--cyan-accent);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(0, 240, 255, 0.2);
+  transform: translateY(-3px) scale(1.08);
+  box-shadow: 0 6px 20px rgba(0, 240, 255, 0.3);
 }
 
 .footer-nav-col {
